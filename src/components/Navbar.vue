@@ -14,7 +14,7 @@
     <div class="navbar-menu" id="menu">
       <div class="navbar-start">
         <router-link :to="'cafe'" class="navbar-item">Thực đơn</router-link>
-        <a class="navbar-item">Thông tin</a>
+        <router-link :to="'info'" class="navbar-item">Thông tin</router-link>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Liên hệ</a>
           <div class="navbar-dropdown">
@@ -61,5 +61,9 @@
 <style>
   .navbar {
     box-shadow: 0 0 5px 1px black;
+  }
+
+  .navbar-item:focus {
+    outline: none;
   }
 </style>
