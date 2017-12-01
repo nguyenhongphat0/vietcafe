@@ -18,9 +18,9 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Liên hệ</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item">Facebook</a>
-            <a class="navbar-item">Zalo</a>
-            <a class="navbar-item">Instagram</a>
+            <a target="_blank" href="http://facebook.com/" class="navbar-item">Facebook</a>
+            <a target="_blank" href="https://zalo.me/" class="navbar-item">Zalo</a>
+            <a target="_blank" href="https://www.instagram.com/" class="navbar-item">Instagram</a>
           </div>
         </div>
       </div>
